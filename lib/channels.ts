@@ -41,6 +41,16 @@ export const CHANNELS: Channel[] = [
     emoji: "🎵",
     category: "Lagu",
   },
+  {
+    id: "hada-kiddy",
+    name: "HaDa Kiddy",
+    handle: "@HaDaKiddy",
+    youtubeChannelId: "Acaha29WoP3SEosqWCSBlYRQ1",
+    description: "Kisah para nabi",
+    color: "#9C27B0",
+    emoji: "📚",
+    category: "Kisah",
+  },
 ];
 
 export const DEFAULT_PARENTAL_SETTINGS = {
@@ -50,4 +60,4 @@ export const DEFAULT_PARENTAL_SETTINGS = {
   allowedChannels: CHANNELS.map((c) => c.id),
 };
 
-export const CATEGORIES = ["Semua", "Islami", "Quran", "Lagu"];
+export const CATEGORIES = ["Semua", "Islami", "Quran", "Lagu", "Kisah"];

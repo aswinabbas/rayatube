@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   HomeIcon, BookOpenIcon, MusicalNoteIcon,
-  MoonIcon, StarIcon, Cog6ToothIcon,
+  MoonIcon, StarIcon, Cog6ToothIcon, StrikethroughIcon
 } from "@heroicons/react/24/outline";
 import { HomeIcon as HomeSolid } from "@heroicons/react/24/solid";
 import { CHANNELS } from "@/lib/channels";
@@ -15,9 +15,10 @@ interface SidebarProps {
 }
 
 const catNav = [
-  { id: "cat:Islami", label: "Islami",  Icon: MoonIcon },
-  { id: "cat:Quran",  label: "Quran",   Icon: BookOpenIcon },
-  { id: "cat:Lagu",   label: "Lagu",    Icon: MusicalNoteIcon },
+  { id: "cat:Islami", label: "Islami", Icon: MoonIcon },
+  { id: "cat:Quran", label: "Quran", Icon: BookOpenIcon },
+  { id: "cat:Lagu", label: "Lagu", Icon: MusicalNoteIcon },
+  { id: "cat:Kisah", label: "Kisah", Icon: StrikethroughIcon },
 ];
 
 export default function Sidebar({ collapsed, selectedChannel, onChannelSelect }: SidebarProps) {

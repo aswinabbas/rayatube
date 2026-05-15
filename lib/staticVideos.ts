@@ -152,6 +152,48 @@ export const STATIC_VIDEOS: Video[] = [
     channelName: "Rofif Kids",
     publishedAt: "2024-04-03T00:00:00Z",
   },
+
+  // ------ Hadda kiddy -------------
+  {
+    id: "MUwdXMfjdbw",
+    youtubeVideoId: "MUwdXMfjdbw",
+    title: "Nabi Sulaiman dan Semut Ajaib! | Hadda Kiddy",
+    description: "Semut Bercakap Dengan Nabi Sulaiman?! 😲 Kisah Ajaib Kuasa Allah",
+    thumbnailUrl: "https://i.ytimg.com/vi/MUwdXMfjdbw/hqdefault.jpg",
+    channelId: "Acaha29WoP3SEosqWCSBlYRQ1",
+    channelName: "HaDa Kiddy",
+    publishedAt: "2024-04-03T00:00:00Z",
+  },
+  {
+    id: "pu3sOOMJy04",
+    youtubeVideoId: "pu3sOOMJy04",
+    title: "Kisah nabi Ismail | Hadda Kiddy",
+    description: "Kisah Nabi Ismail A.S. 😭 Perintah Menyembelih Anak & Mukjizat Korban",
+    thumbnailUrl: "https://i.ytimg.com/vi/pu3sOOMJy04/hqdefault.jpg",
+    channelId: "Acaha29WoP3SEosqWCSBlYRQ1",
+    channelName: "HaDa Kiddy",
+    publishedAt: "2024-04-03T00:00:00Z",
+  },
+  {
+    id: "SjxeXr1NYgU",
+    youtubeVideoId: "SjxeXr1NYgU",
+    title: "Kisah nabi Yusuf | Hadda Kiddy",
+    description: "Kisah Nabi Yusuf A.S. 😭 Dari Perigi Gelap ke Istana Raja! Mukjizat Yang Mengejutkan! - Part 1",
+    thumbnailUrl: "https://i.ytimg.com/vi/SjxeXr1NYgU/hqdefault.jpg",
+    channelId: "Acaha29WoP3SEosqWCSBlYRQ1",
+    channelName: "HaDa Kiddy",
+    publishedAt: "2024-04-03T00:00:00Z",
+  },
+  {
+    id: "nNFQzSXpjwM",
+    youtubeVideoId: "nNFQzSXpjwM",
+    title: "Kisah nabi Yusuf | Hadda Kiddy",
+    description: "Mimpi Nabi Yusuf Akhirnya menjadi Kenyataan 🌟 11 Bintang Bersujud Kepadanya",
+    thumbnailUrl: "https://i.ytimg.com/vi/nNFQzSXpjwM/hqdefault.jpg",
+    channelId: "Acaha29WoP3SEosqWCSBlYRQ1",
+    channelName: "HaDa Kiddy",
+    publishedAt: "2024-04-03T00:00:00Z",
+  },
 ];
 
 /**

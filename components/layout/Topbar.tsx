@@ -47,7 +47,7 @@ export default function Topbar({ onMenuClick, onSearch, searchOpen: extOpen, set
       <Link href="/" className="flex items-center gap-1.5 select-none shrink-0 mr-2">
         <div className="flex items-center justify-center w-8 h-8 rounded-lg"
           style={{ background: "var(--accent)" }}>
-          <span className="text-white text-base font-black leading-none">K</span>
+          <span className="text-white text-base font-black leading-none">Ry</span>
         </div>
         <div className="flex flex-col leading-none">
           <span className="font-black text-[15px]" style={{ color: "var(--text-1)" }}>RayaTube</span>

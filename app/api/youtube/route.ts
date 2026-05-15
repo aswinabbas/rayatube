@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { STATIC_VIDEOS, enrichVideosWithOEmbed } from "@/lib/staticVideos";
 import { CHANNELS } from "@/lib/channels";
 import { Video } from "@/types";
+import { console } from "inspector";
+import { log } from "console";
 
 // Enrich once at module level so the cache persists across requests in prod
 let enrichedCache: Video[] | null = null;
@@ -15,8 +17,8 @@ async function getEnrichedVideos(): Promise<Video[]> {
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const channelId = searchParams.get("channel"); // youtubeChannelId value
-  const query = searchParams.get("q");
 
+  const query = searchParams.get("q");
   try {
     let videos = await getEnrichedVideos();
 
